@@ -409,6 +409,7 @@ sed -n '2,4{s/$/*/;p}' file23
 #Sorting File content
 
 cat > file21
+
 ```
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
@@ -418,6 +419,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+```
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
